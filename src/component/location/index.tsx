@@ -16,7 +16,7 @@ export const Location = () => {
         <Map />
       </LazyDiv>
       <LazyDiv className="card location">
-        <div className="location-info">
+        {/* <div className="location-info">
           <div className="transportation-icon-wrapper">
             <BusIcon className="transportation-icon" />
           </div>
@@ -48,7 +48,7 @@ export const Location = () => {
             <br />
             이하 위와 동일합니다.
           </div>
-        </div>
+        </div> */}
         <div className="location-info">
           <div className="transportation-icon-wrapper">
             <CarIcon className="transportation-icon" />
@@ -58,19 +58,14 @@ export const Location = () => {
           <div className="content">
             네이버 지도, 카카오 네비, 티맵 등 이용
             <br />
-            <b>서울대학교 연구공원 웨딩홀</b> 검색
+            <b>트리웨딩</b> 검색
             <br />
             - 주차 요금은 무료입니다.
             <br />
-            (주차장 이용 시 웨딩홀과 바로 연결)
+            충북 청주시 청원구 주중동 116-12 트리웨딩
+            (충청대로 255)
           </div>
           <div />
-          <div className="content">
-            <b>
-              ※ 서울대학교 정, 후문을 통과할 경우 통행료가 발생하므로
-              유의바랍니다. 낙성대 방향으로 이용해주세요.
-            </b>
-          </div>
         </div>
       </LazyDiv>
     </>
