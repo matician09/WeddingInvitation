@@ -40,7 +40,7 @@ const NaverMap = () => {
     if (naver) {
       const map = new naver.maps.Map(ref.current, {
         center: WEDDING_HALL_POSITION,
-        zoom: 17,
+        zoom: 15,
       })
 
       new naver.maps.Marker({ position: WEDDING_HALL_POSITION, map })
