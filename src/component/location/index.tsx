@@ -16,39 +16,39 @@ export const Location = () => {
         <Map />
       </LazyDiv>
       <LazyDiv className="card location">
-        {/* <div className="location-info">
+        <div className="location-info">
           <div className="transportation-icon-wrapper">
             <BusIcon className="transportation-icon" />
           </div>
           <div className="heading">대중교통</div>
           <div />
           <div className="content">
-            * 지하철 이용시
+            * 고속버스, 시외버스 이용시
             <br />
-            지하철 2호선 <b>낙성대역 4번출구</b> 나와서
+            <b>청주시외버스터미널</b>
             <br />
-            → 첫번째 골목 끼고 좌회전
-            <br />→ 마을버스 <b>관악 02번</b> 승차
-            <br />→ <b>서울대후문·연구공원 정류장</b> 하차
+            시외버스터미널정류장(2055) 승차<br />
+            버스노선번호:105번,101번,114번<br />
+            반송말 정류장에서 하차<br /> 
+            - 택시 이용시 약 25분 소요<br />
             <br />
-            → 길 건너 간판 참고해 도보로 100m 이동
+            <b>청주여객터미널(청주대정류소)</b>
             <br />
-            검은색 피라미드 유리 건물입니다.
+            청주대,뉴시스정류장 (1512) 승차<br />
+            114번,105번 <br />
+            반송말정류장 하차 (15분소요)<br />
+            - 택시 이용시 약 10분 소요<br />
           </div>
           <div />
           <div className="content">
-            * 버스 이용 시
+            * 고속철도 (KTX, SRT) 이용시
             <br />
-            - 간선(파랑): 461, 641
-            <br />
-            - 지선(초록): 5413, 5524, 5528
-            <br />
-            반드시 <b>낙성대입구</b> 하차
-            <br />→ 마을버스 <b>관악 02번</b> 이용
-            <br />
-            이하 위와 동일합니다.
+            <b>오송역5(1447)</b> 에서 509번 승차<br />
+            사창사거리 정류장(1553)에서 105번,114번 환승<br />
+            반송말 정류장에서 하차<br />
+            - 택시 이용시 약 25분 소요<br />
           </div>
-        </div> */}
+        </div>
         <div className="location-info">
           <div className="transportation-icon-wrapper">
             <CarIcon className="transportation-icon" />
