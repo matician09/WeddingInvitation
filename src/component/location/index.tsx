@@ -56,8 +56,7 @@ export const Location = () => {
           <div className="heading">자가용</div>
           <div />
           <div className="content">
-            네이버 지도, 카카오 네비, 티맵 등 이용
-            <b>트리웨딩</b> 검색
+            네이버 지도, 카카오 네비, 티맵 등 이용 <b>트리웨딩</b> 검색
             <br />
             (주차 요금은 무료입니다)
             <br />
