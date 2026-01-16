@@ -29,7 +29,7 @@ export const Invitation = () => {
       <div className="content">하나의 약속이 되는 날</div>
       <div className="break" />
       <div className="content">저희 두 사람이</div>
-      <div className="content">사랑으로 이어지 인연을</div>
+      <div className="content">사랑으로 이어진 인연을</div>
       <div className="content">평생의 동행으로 이어가고자 합니다</div>
       <div className="break" />
       <div className="content">부족한 저희가</div>
